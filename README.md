@@ -35,26 +35,26 @@ This is the homework 1 from Frontend Development Course (114-2), a Vue 3 project
 4.  How did you move avatar below input?
     > 1. HTML Order:
     >
-    > ```html
-    > <input />
-    > <button />
-    > <img class="avatar" />
-    > <p class="error" />
-    > ```
+    >    ```html
+    >    <input />
+    >    <button />
+    >    <img class="avatar" />
+    >    <p class="error" />
+    >    ```
     >
     > 2. CSS for input + button side-by-side:
     >
-    > ```css
-    > input {
-    > 	margin-right: 8px; /* Space between input and button */
-    > }
-    > ```
+    >    ```css
+    >    input {
+    >    	margin-right: 8px; /* Space between input and button */
+    >    }
+    >    ```
     >
     > 3. CSS for avatar below:
     >
-    > ```css
-    > .avatar {
-    > 	display: block; /* Forces onto new line */
-    > 	margin: 1rem auto 0; /* Centers horizontally */
-    > }
-    > ```
+    >    ```css
+    >    .avatar {
+    >    	display: block; /* Forces onto new line */
+    >    	margin: 1rem auto 0; /* Centers horizontally */
+    >    }
+    >    ```
